@@ -1,0 +1,31 @@
+module NoMaam
+{
+
+    item Tshirt_NoMaam_EN
+    {
+        Type = Clothing,
+        DisplayName = T-Shirt "No Ma'am",
+        Icon = NoMaam_EN,
+        ClothingItem = Tshirt_NoMaam_EN,
+        BodyLocation = Tshirt,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+		BloodLocation = Shirt,
+    }
+
+    item Tshirt_NoMaam_RU
+    {
+        Type = Clothing,
+        DisplayName = T-Shirt "BEZ BAB",
+        Icon = NoMaam_RU,
+        ClothingItem = Tshirt_NoMaam_RU,
+        BodyLocation = Tshirt,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+		BloodLocation = Shirt,
+    }
+}
